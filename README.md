@@ -3,7 +3,9 @@ Impl Merkle Tree following RFC6962
 
 # 实验简介
 • Construct a Merkle tree with 10w leaf nodes
+
 • Build inclusion proof for specified element
+
 • Build exclusion proof for specified element
 
 # 实验完成人
