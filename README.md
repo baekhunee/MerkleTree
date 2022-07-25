@@ -29,8 +29,9 @@ char** divide_string(char* str, int* number)merkletree支持字符串的存储�
 
 void delete_string(char** s, int n)删除字符串；
 
-#运行测试
-给定message="Hello!This is Baekhunee.I'm writing a merkle tree!"
+# 运行测试
+  给定message="Hello!This is Baekhunee.I'm writing a merkle tree!"
+  
 ![image](https://user-images.githubusercontent.com/105578152/180704750-71d4623f-0b29-454f-87a2-13eafeda8517.png)
-发现可以成功生成merkletree，与之类似更改message信息即可创建具有10w节点的merkletree。
+  发现可以成功生成merkletree，与之类似更改message信息即可创建具有10w节点的merkletree。
 
