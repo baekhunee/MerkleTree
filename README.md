@@ -21,7 +21,7 @@ merkletree* last_node(merkletree* tree)用于寻找当前merkletree中最后一�
 
 merkletree* find_new_node(merkletree* tree)用于寻找可插入的新节点；
 
-merkletree* initial(merkletree* tree, char** s, int n)生成merkletree；
+merkletree* initial(merkletree* tree, char** s, int n)生成merkletree，倘若该层节点不足以两两分完，则将最后一个节点记录下来，并以它为头节点对应的树上的所有节点高度均加一作为下一层节点进行，以符合RFC6962要求。
 
 void delete_tree(merkletree* tree)删除merkletree；
 
