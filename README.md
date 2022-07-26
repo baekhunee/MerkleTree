@@ -11,7 +11,7 @@ git账户名称：baekhunee
 # Merkle Tree
 ![image](https://user-images.githubusercontent.com/105578152/180908763-8b302599-7917-404c-a9a9-fb7e4942cee9.png)
 
-默克尔树，Merkle Tree可以看做Hash List的泛化（Hash List可以看作一种特殊的Merkle Tree，即树高为2的多叉Merkle Tree）。
+Merkle Tree可以看做Hash List的泛化（Hash List可以看作一种特殊的Merkle Tree，即树高为2的多叉Merkle Tree）。
 
 在最底层，和Hash List一样，把数据分成小的数据块，计算对应的哈希值。但之后并非直接去运算根哈希，而是把相邻的两个哈希合并成一个字符串，然后计算这个新字符串的哈希值，以此类推，最终形成一棵倒挂的树。倘若该层节点不足以两两分完，则将最后一个节点记录下来，并以它为头节点对应的树上的所有节点高度均加一作为下一层节点进行，以符合RFC6962要求。
 
