@@ -1,4 +1,8 @@
-# 实验名称
+#实验名称
+
+Merkle Tree
+
+# 实验简介
 Impl Merkle Tree following RFC6962
 
 # 实验完成人
@@ -7,6 +11,10 @@ Impl Merkle Tree following RFC6962
 学号：202000460021 
 
 git账户名称：baekhunee
+
+# 运行指导
+
+代码可以直接运行
 
 # Merkle Tree
 ![image](https://user-images.githubusercontent.com/105578152/180908763-8b302599-7917-404c-a9a9-fb7e4942cee9.png)
